@@ -9,6 +9,7 @@ end
 describe Book do
 
   it "test book" do
+    expect (3).to_be > 4
     puts "test ran successfully 123..."
   end
 
