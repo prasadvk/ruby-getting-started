@@ -5,10 +5,11 @@ class WelcomeController < ApplicationController
 
   end
 
-  def json_test
+  def test_json
      user = User.new
      user.name = 'pk'
      user.email = 'pk@traas.com'	
+     render json: user	
   end
 
 end
